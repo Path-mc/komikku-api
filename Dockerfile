@@ -10,7 +10,7 @@ RUN go mod download \
   && go build -tags musl -o main ./bin/app
 
 # Expose port
-EXPOSE 8080
+EXPOSE 7860
 
 # Run application
 CMD ["./main"]
